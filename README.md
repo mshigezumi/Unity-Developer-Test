@@ -62,20 +62,20 @@ Text:
 * The text ‘Inventory’ should be displayed above the top left corner of the inventory menu as left-aligned text.
 * If an item is selected in an inventory slot, the name of the selected item should be displayed below the bottom right corner of the inventory menu as right-aligned text (you will need to manually assign an appropriate name to each of the 55 icons).
 
-##Scripts
+## Scripts
 
-###PlayerControls.cs
+### PlayerControls.cs
 
-###AudioManager.cs
+### AudioManager.cs
 
-###Sound.cs
+### Sound.cs
 
-###Inventory.cs
+### Inventory.cs
 
-###InventorySlot.cs
+### InventorySlot.cs
 
-###InventoryUI.cs
+### InventoryUI.cs
 
-###Item.cs
+### Item.cs
 
-###ItemPickup.cs
+### ItemPickup.cs
