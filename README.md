@@ -78,7 +78,7 @@ Wrapper for audio files for use with the audio manager.
 
 ### Inventory.cs
 
-
+The main script for the inventory system using a singleton pattern. Includes the functions Add, Remove, SortItems, GetRandomOpenSlot, Clear, RefreshItemInSlot, MoveCursorTo, SelectItem, DeselectItem, SwapItems, MoveItem, GetInventorySlotsOfItems.
 
 ### InventorySlot.cs
 
