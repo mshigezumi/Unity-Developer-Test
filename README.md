@@ -66,11 +66,19 @@ Text:
 
 ### PlayerControls.cs
 
+This is the automaticly generated script using the newer Unity input system.
+
 ### AudioManager.cs
+
+This is a simple audio manager using a singleton pattern which will stay loaded on the scene even on scene switch. Takes an array of Sound to help keep track of sound files and play them when needed.
 
 ### Sound.cs
 
+Wrapper for audio files for use with the audio manager.
+
 ### Inventory.cs
+
+
 
 ### InventorySlot.cs
 
