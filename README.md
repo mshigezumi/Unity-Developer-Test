@@ -82,7 +82,11 @@ The main script for the inventory system using a singleton pattern. Includes the
 
 ### InventorySlot.cs
 
+These are the individual slots used in the inventory system, each slot can hold an item. Includes the functions AddItem, ClearSlot, ShowCursor, HideCursor, OnRemoveButton, UseItem.
+
 ### InventoryUI.cs
+
+Controls the UI for the inventory system and also acts as a bridge between the input system and calling functions in the singletons AudioManager and Inventory. 
 
 ### Item.cs
 
