@@ -86,7 +86,7 @@ These are the individual slots used in the inventory system, each slot can hold 
 
 ### InventoryUI.cs
 
-Controls the UI for the inventory system and also acts as a bridge between the input system and calling functions in the singletons AudioManager and Inventory. 
+Controls the UI for the inventory system and also acts as a bridge between the input system and calling functions in the singletons AudioManager and Inventory. Includes the functions getSlots, Show, CursorLeft, CursorRight, CursorDown, CursorUp, Select, Remove, ResetInventory, ChangeResolution, UpdateUI.
 
 ### Item.cs
 
