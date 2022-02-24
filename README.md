@@ -6,7 +6,7 @@ At the [bottom](https://github.com/mshigezumi/Unity-Developer-Test/edit/main/REA
 
 ## Scripts
 
-Overview of the scripts used in this project, all can be found [here](https://github.com/mshigezumi/Unity-Developer-Test/tree/main/Assets/Scripts).
+Overview of the scripts used in this project, the full scripts can be found [here](https://github.com/mshigezumi/Unity-Developer-Test/tree/main/Assets/Scripts).
 
 ### PlayerControls.cs
 
