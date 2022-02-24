@@ -1,6 +1,6 @@
 # Unity Developer Test
 
-My submition for this test can be found above in the Submission_MichaelShigezumi folder or downloaded from Submission_MichaelShigezumi.zip.
+My submition for this test can be found above in the [Submission_MichaelShigezumi](https://github.com/mshigezumi/Unity-Developer-Test/tree/main/Submission_MichaelShigezumi) folder or downloaded from [here](https://github.com/mshigezumi/Unity-Developer-Test/raw/main/Submission_MichaelShigezumi.zip).
 
 At the [bottom](https://github.com/mshigezumi/Unity-Developer-Test/edit/main/README.md#unity-developer-test-1) of this document is the original test and requirements as given by Feel Free Games.
 
