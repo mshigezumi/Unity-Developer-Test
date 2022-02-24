@@ -4,6 +4,22 @@ My submition for this test can be found above in the Submission_MichaelShigezumi
 
 At the [bottom](https://github.com/mshigezumi/Unity-Developer-Test/edit/main/README.md#unity-developer-test-1) of this document is the original test and requirements as given by Feel Free Games.
 
+## Controls
+
+This sample supports both gamepads(as long as they are supported by Unity) and keyboard.
+
+Command: Gamepad Controls (Xbox layout) || Keyboard Controls
+
+Move Cursor: Left Thumbstick/D-Pad || Up/Left/Down/Right Arrow Keys
+
+Select/Place: A || Space
+
+Refresh/Delete: Y || R
+
+Change Resolution: Left Bumper/Right Bumper || Q/E
+
+Hide/Show: Select || B/I (not fully implemented and wasn't required)
+
 ## Scripts
 
 Overview of the scripts used in this project, the full scripts can be found [here](https://github.com/mshigezumi/Unity-Developer-Test/tree/main/Assets/Scripts).
