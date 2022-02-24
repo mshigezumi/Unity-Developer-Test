@@ -1,6 +1,6 @@
 # Unity Developer Test
 
-My submition for this test can be found above in the Submission_MichaelShigezumi folder.
+My submition for this test can be found above in the Submission_MichaelShigezumi folder or downloaded from Submission_MichaelShigezumi.zip.
 
 Below is the test as given by Feel Free Games.
 
