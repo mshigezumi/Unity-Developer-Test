@@ -4,6 +4,9 @@ My submition for this test can be found above in the Submission_MichaelShigezumi
 
 At the [bottom](https://github.com/mshigezumi/Unity-Developer-Test/edit/main/README.md#unity-developer-test-1) of this document is the original test and requirements as given by Feel Free Games.
 
+![UDT Unity](https://user-images.githubusercontent.com/71560004/155559290-d4a5c2a7-c37c-431a-a050-d958f09a0c62.png)
+![UDT Game](https://user-images.githubusercontent.com/71560004/155559293-1c5a0c4e-d4e3-49ad-b535-fdd99d286391.png)
+
 ## Controls
 
 This sample supports both gamepads(as long as they are supported by Unity) and keyboard.
