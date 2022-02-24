@@ -90,4 +90,8 @@ Controls the UI for the inventory system and also acts as a bridge between the i
 
 ### Item.cs
 
+This is the script used for item scriptable objects. Contains information like name of item, sprite, and which inventory slot it's in, along with the functions related to the specific object.
+
 ### ItemPickup.cs
+
+This script originally is suppose to be attached to an in-game object and allows it to be transfered into the inventory, was repurposed as a random item generator for this project.
