@@ -2,7 +2,43 @@
 
 My submition for this test can be found above in the Submission_MichaelShigezumi folder or downloaded from Submission_MichaelShigezumi.zip.
 
-Below is the test as given by Feel Free Games.
+At the [bottom](https://github.com/mshigezumi/Unity-Developer-Test/edit/main/README.md#unity-developer-test-1) of this document is the original test and requirements as given by Feel Free Games.
+
+## Scripts
+
+Overview of the scripts used in this project, all can be found [here](https://github.com/mshigezumi/Unity-Developer-Test/tree/main/Assets/Scripts).
+
+### PlayerControls.cs
+
+This is the automaticly generated script using the newer Unity input system.
+
+### AudioManager.cs
+
+This is a simple audio manager using a singleton pattern which will stay loaded on the scene even on scene switch. Takes an array of Sound to help keep track of sound files and play them when needed.
+
+### Sound.cs
+
+Wrapper for audio files for use with the audio manager.
+
+### Inventory.cs
+
+The main script for the inventory system using a singleton pattern. Includes the functions Add, Remove, SortItems, GetRandomOpenSlot, Clear, RefreshItemInSlot, MoveCursorTo, SelectItem, DeselectItem, SwapItems, MoveItem, GetInventorySlotsOfItems.
+
+### InventorySlot.cs
+
+These are the individual slots used in the inventory system, each slot can hold an item. Includes the functions AddItem, ClearSlot, ShowCursor, HideCursor, OnRemoveButton, UseItem.
+
+### InventoryUI.cs
+
+Controls the UI for the inventory system and also acts as a bridge between the input system and calling functions in the singletons AudioManager and Inventory. Includes the functions getSlots, Show, CursorLeft, CursorRight, CursorDown, CursorUp, Select, Remove, ResetInventory, ChangeResolution, UpdateUI.
+
+### Item.cs
+
+This is the script used for item scriptable objects. Contains information like name of item, sprite, and which inventory slot it's in, along with the functions related to the specific object.
+
+### ItemPickup.cs
+
+This script originally is suppose to be attached to an in-game object and allows it to be transfered into the inventory, was repurposed as a random item generator for this project.
 
 ## Unity developer test
 
@@ -61,37 +97,3 @@ Text:
 
 * The text ‘Inventory’ should be displayed above the top left corner of the inventory menu as left-aligned text.
 * If an item is selected in an inventory slot, the name of the selected item should be displayed below the bottom right corner of the inventory menu as right-aligned text (you will need to manually assign an appropriate name to each of the 55 icons).
-
-## Scripts
-
-### PlayerControls.cs
-
-This is the automaticly generated script using the newer Unity input system.
-
-### AudioManager.cs
-
-This is a simple audio manager using a singleton pattern which will stay loaded on the scene even on scene switch. Takes an array of Sound to help keep track of sound files and play them when needed.
-
-### Sound.cs
-
-Wrapper for audio files for use with the audio manager.
-
-### Inventory.cs
-
-The main script for the inventory system using a singleton pattern. Includes the functions Add, Remove, SortItems, GetRandomOpenSlot, Clear, RefreshItemInSlot, MoveCursorTo, SelectItem, DeselectItem, SwapItems, MoveItem, GetInventorySlotsOfItems.
-
-### InventorySlot.cs
-
-These are the individual slots used in the inventory system, each slot can hold an item. Includes the functions AddItem, ClearSlot, ShowCursor, HideCursor, OnRemoveButton, UseItem.
-
-### InventoryUI.cs
-
-Controls the UI for the inventory system and also acts as a bridge between the input system and calling functions in the singletons AudioManager and Inventory. Includes the functions getSlots, Show, CursorLeft, CursorRight, CursorDown, CursorUp, Select, Remove, ResetInventory, ChangeResolution, UpdateUI.
-
-### Item.cs
-
-This is the script used for item scriptable objects. Contains information like name of item, sprite, and which inventory slot it's in, along with the functions related to the specific object.
-
-### ItemPickup.cs
-
-This script originally is suppose to be attached to an in-game object and allows it to be transfered into the inventory, was repurposed as a random item generator for this project.
